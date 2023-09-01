@@ -160,6 +160,7 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayEarth \
     SystemUIOverlayEarth \
     TelephonyOverlayEarth \
+    TetheringResOverlayEarth \
     WifiResOverlayEarth
 
 DEVICE_PACKAGE_OVERLAYS += \
