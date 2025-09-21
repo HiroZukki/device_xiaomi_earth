@@ -1,4 +1,4 @@
-# Unpinned blobs from earth-user 14 UP1A.231005.007 V816.0.7.0.UCVMIXM release-keys
+# Unpinned blobs from earth-user 14 UP1A.231005.007 V816.0.12.0.UCVMIXM release-keys
 
 # AEE
 vendor/lib/libaedv.so
@@ -274,7 +274,7 @@ vendor/lib64/libbluetooth_mtk_pure.so
 vendor/lib64/libbt-vendor.so
 
 # Bluetooth (Firmware) - from A145PXXU1AWA3
-vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin|9cd0d79cde76a59ddd8545b1621af1176c5f9605
+vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin|120a92a1027779fcad268784486bf6a49a9bf466
 
 # Bluetooth (A2DP)
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
@@ -507,7 +507,7 @@ vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 
 # Camera - from AP1A.240405.002.A1
-vendor/lib64/libcamera2ndk_vendor.so:vendor/lib64/libcamera2ndk_vendor-v35.so|6b8dc8e42d07d643c03fed98092df3984daeaaa7;FIX_SONAME
+vendor/lib64/libcamera2ndk_vendor.so:vendor/lib64/libcamera2ndk_vendor-v35.so;FIX_SONAME|6b8dc8e42d07d643c03fed98092df3984daeaaa7|9e259b908c7f8357f7cafab879b83095b4d8e866
 
 # Camera Configs
 vendor/etc/camera/768_seg_without_det_with_softmax.mnn.tempcache
