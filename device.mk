@@ -229,10 +229,6 @@ PRODUCT_PACKAGES += \
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
 
-# RIL
-PRODUCT_PACKAGES += \
-    android.hardware.radio-service.compat
-
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6768 \
