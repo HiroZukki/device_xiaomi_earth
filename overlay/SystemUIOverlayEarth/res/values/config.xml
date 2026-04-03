@@ -20,9 +20,6 @@
     <!-- the padding on the top of the statusbar -->
     <dimen name="status_bar_padding_top">4dp</dimen>
 
-    <!-- the padding on the top quick settings panel -->
-    <dimen name="qs_panel_padding_top">45dp</dimen>
-
     <!-- Margin on the left side of the carrier text on Keyguard -->
     <dimen name="keyguard_carrier_text_margin">20dp</dimen>
 
