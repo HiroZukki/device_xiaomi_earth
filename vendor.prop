@@ -217,6 +217,9 @@ ro.vendor.mtk_data_config=1
 # Sensors
 ro.vendor.mtk.sensor.support=yes
 
+# Surfaceflinger
+ro.surface_flinger.supports_background_blur=1
+
 # Trusted Execution Environment (TEE)
 ro.vendor.mtk_microtrust_tee_support=1
 
