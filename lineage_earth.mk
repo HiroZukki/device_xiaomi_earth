@@ -17,7 +17,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_ENABLE_FP_OVERRIDE := false
 PERF_ANIM_OVERRIDE := true
 TARGET_ENABLE_BLUR := true
-WITH_GMS := false
+WITH_GMS := true
 
 PRODUCT_NAME := lineage_earth
 PRODUCT_DEVICE := earth
