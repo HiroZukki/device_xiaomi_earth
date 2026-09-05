@@ -223,6 +223,9 @@ ro.vendor.mtk_data_config=1
 # Sensors
 ro.vendor.mtk.sensor.support=yes
 
+# Surfaceflinger
+debug.renderengine.blur_algorithm=kawase2_fix_aliasing
+
 # Trusted Execution Environment (TEE)
 ro.vendor.mtk_microtrust_tee_support=1
 
