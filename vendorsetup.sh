@@ -2,7 +2,7 @@
 
 # Other earth stuffs
 git clone https://github.com/HiroZukki/vendor_xiaomi_earth.git -b 16.2-ims vendor/xiaomi/earth
-git clone https://github.com/dreamsolister26/kernel_xiaomi_earth.git -b lineage-23.2 kernel/xiaomi/earth
+git clone https://github.com/dreamsolister26/kernel_xiaomi_earth.git -b lineage-24.0 kernel/xiaomi/earth
 git clone https://github.com/dreamsolister26/fortissimo.git -b keys vendor/lineage-priv/keys
 
 # Hardware Repos
