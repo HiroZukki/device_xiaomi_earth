@@ -11,8 +11,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/earth/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common EvolutionX stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+TARGET_ENABLE_FP_OVERRIDE := false
+PERF_ANIM_OVERRIDE := true
+TARGET_ENABLE_BLUR := false
+WITH_GMS := true
+TARGET_SUPPORTS_QUICK_TAP := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_ACCORD := false
 
 PRODUCT_NAME := lineage_earth
 PRODUCT_DEVICE := earth
