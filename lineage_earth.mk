@@ -17,7 +17,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_ENABLE_FP_OVERRIDE := false
 PERF_ANIM_OVERRIDE := true
 TARGET_ENABLE_BLUR := false
-WITH_GMS := true
+WITH_GMS := false
 TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_INCLUDE_ACCORD := false
