@@ -11,8 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/earth/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common DerpFest-AOSP stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+TARGET_CALL_RECORDING_SUPPORTED := false
+TARGET_SUPPORTS_BLUR := false
+TARGET_INCLUDE_ACCORD := false
+WITH_GMS_AICORE := false
+DERPFEST_BUILD_TYPE := Ensemble
 
 PRODUCT_NAME := lineage_earth
 PRODUCT_DEVICE := earth

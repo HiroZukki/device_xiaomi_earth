@@ -228,6 +228,9 @@ PRODUCT_PACKAGES += \
 # Properties
 include hardware/mediatek/configs/properties/vendor_logtag.mk
 
+# Remove Packages
+    remove-packages
+
 # Rootdir
 PRODUCT_PACKAGES += \
     chipinfo \

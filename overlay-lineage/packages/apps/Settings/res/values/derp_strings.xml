@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- DerpFest maintainer: empty by default; device trees overlay with maintainer name.
+         When empty, derpfest_maintainer_unofficial is shown (translatable). -->
+    <string name="derpfest_summary">Build by %s</string>
+    <string name="derpfest_maintainer">Makinohara Shoko</string>
+</resources>
